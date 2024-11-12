@@ -1,0 +1,58 @@
+@media (max-width: 991px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nav-container {
+        display: none;
+    }
+    .warmth-image {
+        width: 100%;
+        border-radius: 0px;
+        border-left: none;
+        border-right: none;
+        height: 70vh;
+    }
+    .warmth-text-container {
+        width: 70%;
+    }
+    .warmth-text {
+        font-size: 38px;
+    }
+    .warmth-subtext {
+        font-size: 14px;
+    }
+    .final-image {
+        width: 600px;
+        min-height: 1000px;
+    }
+}
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .header-container {
+        padding: 16px 32px;
+    }
+    .header-text {
+        font-size: 28px;
+    }
+    .warmth-text-container {
+        width: 90%;
+    }
+    .warmth-text {
+        font-size: 32px;
+    }
+    .apology-and-image-container {
+        flex-direction: column;
+    }
+    .apology-text {
+        font-size: 30px;
+    }
+    .final-image {
+        width: 380px;
+        min-height: 800px;
+    }
+    .introduction-subtext {
+        width: 380px;
+    }
+}

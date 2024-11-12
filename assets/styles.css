@@ -1,0 +1,265 @@
+:root {
+    --white: #FBF7F2;
+    --black: #0D0C0A;
+    --subtext-white: #fdfbf9;
+    --subtext-black: #433a30;
+}
+.goudy-bookletter-1911-regular {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.manrope-regular {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: #EBD8BB;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-size: 16px;
+    font-family: "Manrope", serif;
+}
+h3 {
+    font-size: 51px;
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+}
+h4 {
+    font-size: 38px;
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+}
+h5 {
+    font-size: 28px;
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+}
+h6 {
+    font-size: 21px;
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #EBD8BB;
+    padding: 30px 60px;
+}
+.header-text {
+    color: var(--black);
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.nav-button {
+    color: var(--black);
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-family: "Manrope", serif;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.nav-button:hover {
+    background-color: #debe8e;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.nav-button:active {
+    background-color: #c8ab80;
+    transition: 0.1s;
+}
+.warmth-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.warmth-image {
+    background-image: url("../images/warmth.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 100vh;
+    max-height: 740px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    border-radius: 20px;
+    border: 2px solid var(--black);
+    color: var(--white);
+}
+.overlay {
+    background-color: rgba(67, 58, 48, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 20px;
+}
+.warmth-text-container {
+    width: 700px;
+    position: relative;
+    z-index: 2;
+}
+.warmth-text {
+    letter-spacing: 2px;
+    color: var(--white);
+}
+.warmth-subtext {
+    color: var(--subtext-white);
+    letter-spacing: 4px;
+}
+.introduction-container, .apology-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    height: 2px;
+    width: 80%;
+    background-color: var(--black);
+    margin: 80px 0;
+}
+.introduction-text {
+    color: var(--black);
+}
+.introduction-subtext {
+    color: var(--black);
+    width: 700px;
+    text-align: center;
+    line-height: 1.5;
+}
+.darker-background {
+    background-color: #e5cba5;
+}
+.photo-collection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.photo-text, .final-text {
+    color: var(--black);
+}
+.photo-subtext, .final-subtext {
+    color: var(--subtext-black);
+    font-family: "Manrope", serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    margin: 40px 0;
+}
+.grid-item {
+    background-color: #E1C599;
+    min-height: 380px;
+    border-radius: 8px;
+}
+.apology-and-image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 40px;
+    gap: 80px;
+}
+.apology-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.apology-text {
+    color: var(--black);
+}
+.apology-subtext {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--subtext-black);
+}
+.apology-last {
+    margin-bottom: 0px;
+    font-family: "Manrope", serif;
+}
+.apology-image {
+    flex: 1;
+    background-image: url('../images/calm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid var(--black);
+}
+.final-piece-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+}
+.final-image {
+    background-image: url('../images/clover.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 20px;
+    border: 4px solid var(--black);
+    
+    width: 800px;
+    min-height: 1200px;
+    margin-top: 20px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #DEbE8E;
+    padding: 30px 60px;
+    border-top: 2px solid var(--black);
+    margin-top: 80px;
+}
+.footer-subtext{
+    font-family: "Manrope", serif;
+}

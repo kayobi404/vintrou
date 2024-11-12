@@ -1,0 +1,54 @@
+.photo1 {
+    background-image: url('../images/doubletrouble.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo2 {
+    background-image: url('../images/hidingfrompress.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo3 {
+    background-image: url('../images/fish.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo4 {
+    background-image: url('../images/raw.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo5 {
+    background-image: url('../images/filmcam.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo6 {
+    background-image: url('../images/kulit.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo7 {
+    background-image: url('../images/mwa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo8 {
+    background-image: url('../images/clingy.jpg'); /* Your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo9 {
+    background-image: url('../images/bleh.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
